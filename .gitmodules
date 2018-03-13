@@ -1,0 +1,3 @@
+[submodule "pymsf"]
+	path = pymsf
+	url = https://github.com/kabachook/pymsf
