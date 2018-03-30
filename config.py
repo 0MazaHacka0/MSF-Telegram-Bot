@@ -1,3 +1,7 @@
+# Telegram
+
+TOKEN = "TOKEN"
+
 # MSFRPCD Config
 
 msfUser = "msf"                     # Username
