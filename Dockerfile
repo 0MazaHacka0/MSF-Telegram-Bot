@@ -1,7 +1,7 @@
 FROM python:3
 ADD * /bot/
 
-ADD /pymsf /pymsf/
+COPY /pymsf /bot/pymsf/
 
 # Intstall pymsf requirements
 RUN pip install -r /bot/pymsf/requirements.txt
