@@ -7,7 +7,7 @@ COPY /pymsf /bot/pymsf/
 RUN pip install -r /bot/pymsf/requirements.txt
 
 # Install pymsf
-RUN python /bot/pymsf/setup.py install
+CMD [ "python", "./bot/pymsf/setup.py", "install" ]
 
 # Install bot requirements
 RUN pip install -r /bot/requirements.txt
