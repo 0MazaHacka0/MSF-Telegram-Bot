@@ -1,6 +1,10 @@
 FROM python:3
 ADD * /bot/
 
+RUN mkdir /bot/pymsf
+
+ADD /pymsf /pymsf/
+
 # Install bot requirements
 RUN pip install -r /bot/requirements.txt
 
